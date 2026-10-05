@@ -17,6 +17,9 @@ The engine provides a scene system, an `.obj` model loader and a fixed-timestep 
 * Points for every enemy destroyed, and a lives system for the player
 * Progressive difficulty: every time the whole formation is destroyed, the wave restarts with faster enemies
 * Projectile reuse (object pool): player's and enemies' projectiles are instantiated during scene initialization and reused
+<p align = "center">
+  <img width="534" height="400" alt="spaceinvaders" src="https://github.com/user-attachments/assets/f7fdd4c0-da62-47ce-bcfd-4bac330c2a0a" />
+</p>
 
 ## Technologies
 * C++
