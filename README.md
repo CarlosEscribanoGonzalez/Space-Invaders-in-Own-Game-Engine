@@ -6,7 +6,7 @@ The engine provides a scene system, an `.obj` model loader and a fixed-timestep 
 **Engine**
 * Scene-based architecture: each scene (main game, end screen) implements its own initialization, update, render and input handling, and the game switches between them
 * Base `Solid` class that gives every object position, speed, orientation, angular speed, color, texture coordinates and transparency, with a common `Render` / `Update` interface
-* Custom `Vector2D` and `Vector3D` templates with the usual vector operations (addition, subtraction, scalar product, dot product)
+* Custom `Vector2D` and `Vector3D` templates with the usual vector operations
 * `.obj` model loader with configurable scale, used to load the 3D models of the ship, the UFOs and the projectiles
 * Fixed-timestep update loop, independent of the rendering rate
 * Camera object and on-screen text rendering for the HUD
